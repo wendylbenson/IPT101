@@ -1,0 +1,10 @@
+D:\BENSON_IPT101\BENSONIPT101\Pets\bin\Debug\Pets.dacpac
+D:\BENSON_IPT101\BENSONIPT101\Pets\bin\Debug\Pets.dll
+D:\BENSON_IPT101\BENSONIPT101\Pets\bin\Debug\Pets.pdb
+D:\BENSON_IPT101\BENSONIPT101\Pets\obj\Debug\Pets.sqlproj.AssemblyReference.cache
+D:\BENSON_IPT101\BENSONIPT101\Pets\obj\Debug\Pets.dll
+D:\BENSON_IPT101\BENSONIPT101\Pets\obj\Debug\Pets.pdb
+D:\BENSON_IPT101\BENSONIPT101\Pets\obj\Debug\Model.xml
+D:\BENSON_IPT101\BENSONIPT101\Pets\obj\Debug\refactor.xml
+D:\BENSON_IPT101\BENSONIPT101\Pets\obj\Debug\postdeploy.sql
+D:\BENSON_IPT101\BENSONIPT101\Pets\obj\Debug\predeploy.sql
