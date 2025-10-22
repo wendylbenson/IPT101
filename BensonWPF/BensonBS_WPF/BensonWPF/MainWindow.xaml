@@ -1,0 +1,61 @@
+﻿<Window x:Class="BensonWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BensonWPF"
+        mc:Ignorable="d"
+        Title="PetHouse Booking"
+        Height="500"
+        Width="800"
+        Background="#A0522D">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="350">
+
+            <!-- Welcome Text -->
+            <TextBlock Text="Welcome to PetHouse!"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,10"/>
+
+            <TextBlock Text="The best care for your beloved pet."
+                       FontSize="14"
+                       Foreground="White"
+                       TextAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <!-- Owner Name -->
+            <TextBlock Text="Owner Name:" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="OwnerNameTextBox" Height="28" />
+
+            <!-- Pet Name -->
+            <TextBlock Text="Pet Name:" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="PetNameTextBox" Height="28" />
+
+            <!-- Species -->
+            <TextBlock Text="Species:" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="SpeciesTextBox" Height="28" />
+
+            <!-- Breed -->
+            <TextBlock Text="Breed:" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="BreedTextBox" Height="28" />
+
+            <!-- Book Now Button -->
+            <Button Content="Book Now"
+                    Width="150"
+                    Height="40"
+                    Margin="0,15,0,0"
+                    FontSize="16"
+                    FontWeight="Bold"
+                    Background="#8B4513"
+                    Foreground="White"
+                    BorderBrush="White"
+                    BorderThickness="2"
+                    Cursor="Hand"
+                    Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
